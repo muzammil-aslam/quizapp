@@ -1,38 +1,86 @@
-.App {
+.body {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.khan {
+  background-color: gray;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+
+  margin-top: -10px;
+}
+.styling {
+  margin: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  border-radius: 15px;
+  border-bottom: 1px solid black;
+  color: whitesmoke !important;
+  background-color: black;
+  border: 2px solid rgb(55, 133, 55);
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.batan {
+  padding: 12px;
+  border-radius: 20px;
+  width: 8%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.change {
   color: white;
+  text-align: center;
+  margin: 10px;
+}
+.batan {
+  text-align: center;
+  width: 50%;
+  margin-left: 50px;
+}
+.main-btn {
+  color: whitesmoke;
+  background-color: black;
+  margin-top: -25px;
+  border: 2px solid rgb(55, 133, 55);
+  padding: 10px;
+  width: 100%;
+  border-radius: 13px;
+}
+.stylinge {
+  margin: 20px;
+  text-align: center;
+}
+.main-bat {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid green;
+  width: 50%;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.child {
+  margin-top: 10vh;
+  margin: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.call {
+  width: 20%;
+  color: white;
+  border: none;
+  background-color: blue;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.parent {
+  text-align: center;
+  background-color: blue;
+}
+.text {
+  margin-top: 50px;
 }
